@@ -1,0 +1,54 @@
+body{
+   text-align: center; 
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border:2px solid black;
+}
+
+#container{
+    width: 700px;
+    height: 300px;
+    display: flex;   
+    flex-direction: row;
+   justify-content:center ;
+    /* start of flex box by doing container as display as flex */
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    /* align-content: center;   this is along cross axis */
+   
+    
+
+}
+
+#box1{
+    background-color:aqua ;
+    flex-grow: 1;
+}
+
+#box2{
+   background-color: pink;
+   height: 200px ;
+   /* flex-shrink: 2;  reduse size*/ 
+   /* flex-shrink: 0;  */
+   /* get over size than other */
+   /* if want by defaul use 1 shrink */
+   flex-grow: 1;
+}  
+
+#box3{
+   background-color: darkgoldenrod;
+   /* flex-grow:1 ; */
+}
+
+#box4{
+  background-color: indianred;
+  height: 75px;
+}
+
+#box5{
+   background-color: slateblue;
+}

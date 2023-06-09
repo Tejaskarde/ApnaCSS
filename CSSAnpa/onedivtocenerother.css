@@ -1,0 +1,17 @@
+#outer{
+    
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* these below three line use to one big flex box inside it another small box it get to centreee */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    
+}
